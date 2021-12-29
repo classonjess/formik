@@ -1,4 +1,14 @@
-# formik
+MIT License
+
+Copyright (c) 2020 John Williams
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.# formik
+
 http://localhost:3000/
 
 Using Formik Formik is a small library that can help you with the three most annoying aspects of creating forms in React:  Getting values in and out of the form state Validation and error messages Handling form submission By collecting all of the above in one place, Formik can keep things organized, making testing, refactoring, and reasoning your forms much easier.  In this activity, you will be using npm to install React, Formik, and any other required libraries. This is different from the way you’ve been using React so far.  Before you get started with this activity, you need to:  Download the project starter files. These files include:  public/index.html (this is where your React app will be loaded inside the root element) src/App.js (this is the main component of your React application. This is where most of your code will go) Open a command line on your computer and run the command cd path/to/project/root, which allows you to point to the root folder of the starter files (note that path/to/project/root should be replaced with the actual path to the starter files) Within the same command-line window, run npm install to install all dependencies Once the command completes successfully, run npm start to start the application in your browser. In this activity, your task is to create a login form with validation using Formik.  Your form should include the following:  Email field Password field Submit button Your form should implement the following input validation rules:  If the username or password inputs are empty, display the message "Field required" under the text input. If the username is not in an email format, display the message "Username should be an email" under the text input. If the username and password pass the above validations, then display the message "Login Successful" in an alert box.
+
